@@ -7,7 +7,6 @@ public class GameOfLife {
         System.out.println("Welcome to my Game of Life");
         System.out.println("Please insert the height of the game field");
         Scanner readIn = new Scanner(System.in);
-
         //x Achse
         int vertical = readIn.nextInt();
         System.out.println("Please insert the width of the game field");
